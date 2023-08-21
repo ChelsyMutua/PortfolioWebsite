@@ -14,5 +14,15 @@
 }
 
 .section-white{
-    background-color: white;
+    background-color: #1D0002;
+}
+.section-blue{
+    background-color: grey;
+}
+.section-green{
+    background-color: green;
+}
+h3, h5, hr{
+    display: flex;
+    justify-content: center;
 }
