@@ -12,17 +12,68 @@
 .navbar-nav > li {
  margin-right: 20px;
 }
-
-.section-white{
-    background-color: #1D0002;
+.section-one{
+    background-color: rgba(43,42,47,255);
 }
-.section-blue{
-    background-color: grey;
+.section-two{
+    background-color: #27262b;
 }
-.section-green{
-    background-color: green;
+/* .section-three{
+    background-color: rgba(43,42,47,255);
+} */
+.section-four{
+    background-color: rgba(43,42,47,255);
+}
+.section-five{
+    background-color: #27262b;
+}
+.abtMe{
+    height: 70vh;
 }
 h3, h5, hr{
     display: flex;
     justify-content: center;
 }
+.headertxt{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+/* .container1{
+padding: 20px;
+border: 1px solid black;
+background-color: rgba(39,38,43,255);
+text-align: left; /* Align the content to the left */
+/* height: 200px;
+width: 300px;
+display: flex; 
+justify-content: center;
+} */ */
+.section-resume{
+
+height: 55vh;
+display: grid;
+grid-template-columns: 0.5fr 0.5fr;
+grid-template-rows: 1fr;
+
+}
+.section-abt{
+height: 55vh;
+display: grid;
+grid-template-columns: 0.5fr 0.5fr;
+grid-template-rows: 1fr;
+}
+/* .d-block{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+} */
+.div-with-spacing{
+    line-height: 2.5;
+}
+.item{
+    background-color: rgba(39,38,43,255);
+    line-height: 2.5;     
+    padding: 20px;
+}
+
