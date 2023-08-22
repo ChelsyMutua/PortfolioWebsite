@@ -76,4 +76,28 @@ grid-template-rows: 1fr;
     line-height: 2.5;     
     padding: 20px;
 }
+.items{
+    height: 400px;
+    width: 350px;
+}
+.section-port{
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    
+  }
+  .contactMe{
+    height: 50vh;
+  }
+  .section-contact{
+    display: flex;
+    justify-content: center;
+    
+  }
+/* .dog{
+   grid-area: 2 / 1 / 2 / -1;
+    } */
+
+
 
